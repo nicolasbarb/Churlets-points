@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DC74FF2708DA7B00DEF66A /* Churlets_PointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC74FE2708DA7B00DEF66A /* Churlets_PointApp.swift */; };
+		03DC75012708DA7B00DEF66A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC75002708DA7B00DEF66A /* ContentView.swift */; };
+		03DC75032708DA7E00DEF66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DC75022708DA7E00DEF66A /* Assets.xcassets */; };
+		03DC75062708DA7E00DEF66A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DC75052708DA7E00DEF66A /* Preview Assets.xcassets */; };
+		03DC75102708DA7F00DEF66A /* Churlets_PointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC750F2708DA7F00DEF66A /* Churlets_PointTests.swift */; };
+		03DC751A2708DA7F00DEF66A /* Churlets_PointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC75192708DA7F00DEF66A /* Churlets_PointUITests.swift */; };
+		03DC751C2708DA7F00DEF66A /* Churlets_PointUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC751B2708DA7F00DEF66A /* Churlets_PointUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03DC750C2708DA7F00DEF66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DC74F32708DA7B00DEF66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DC74FA2708DA7B00DEF66A;
+			remoteInfo = "Churlets Point";
+		};
+		03DC75162708DA7F00DEF66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DC74F32708DA7B00DEF66A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DC74FA2708DA7B00DEF66A;
+			remoteInfo = "Churlets Point";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DC74FB2708DA7B00DEF66A /* Churlets Point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Churlets Point.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DC74FE2708DA7B00DEF66A /* Churlets_PointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Churlets_PointApp.swift; sourceTree = "<group>"; };
+		03DC75002708DA7B00DEF66A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03DC75022708DA7E00DEF66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03DC75052708DA7E00DEF66A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03DC750B2708DA7F00DEF66A /* Churlets PointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Churlets PointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DC750F2708DA7F00DEF66A /* Churlets_PointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Churlets_PointTests.swift; sourceTree = "<group>"; };
+		03DC75152708DA7F00DEF66A /* Churlets PointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Churlets PointUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DC75192708DA7F00DEF66A /* Churlets_PointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Churlets_PointUITests.swift; sourceTree = "<group>"; };
+		03DC751B2708DA7F00DEF66A /* Churlets_PointUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Churlets_PointUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DC74F82708DA7B00DEF66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DC75082708DA7F00DEF66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DC75122708DA7F00DEF66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DC74F22708DA7B00DEF66A = {
+			isa = PBXGroup;
+			children = (
+				03DC74FD2708DA7B00DEF66A /* Churlets Point */,
+				03DC750E2708DA7F00DEF66A /* Churlets PointTests */,
+				03DC75182708DA7F00DEF66A /* Churlets PointUITests */,
+				03DC74FC2708DA7B00DEF66A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03DC74FC2708DA7B00DEF66A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DC74FB2708DA7B00DEF66A /* Churlets Point.app */,
+				03DC750B2708DA7F00DEF66A /* Churlets PointTests.xctest */,
+				03DC75152708DA7F00DEF66A /* Churlets PointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DC74FD2708DA7B00DEF66A /* Churlets Point */ = {
+			isa = PBXGroup;
+			children = (
+				03DC74FE2708DA7B00DEF66A /* Churlets_PointApp.swift */,
+				03DC75002708DA7B00DEF66A /* ContentView.swift */,
+				03DC75022708DA7E00DEF66A /* Assets.xcassets */,
+				03DC75042708DA7E00DEF66A /* Preview Content */,
+			);
+			path = "Churlets Point";
+			sourceTree = "<group>";
+		};
+		03DC75042708DA7E00DEF66A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03DC75052708DA7E00DEF66A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03DC750E2708DA7F00DEF66A /* Churlets PointTests */ = {
+			isa = PBXGroup;
+			children = (
+				03DC750F2708DA7F00DEF66A /* Churlets_PointTests.swift */,
+			);
+			path = "Churlets PointTests";
+			sourceTree = "<group>";
+		};
+		03DC75182708DA7F00DEF66A /* Churlets PointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03DC75192708DA7F00DEF66A /* Churlets_PointUITests.swift */,
+				03DC751B2708DA7F00DEF66A /* Churlets_PointUITestsLaunchTests.swift */,
+			);
+			path = "Churlets PointUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DC74FA2708DA7B00DEF66A /* Churlets Point */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DC751F2708DA7F00DEF66A /* Build configuration list for PBXNativeTarget "Churlets Point" */;
+			buildPhases = (
+				03DC74F72708DA7B00DEF66A /* Sources */,
+				03DC74F82708DA7B00DEF66A /* Frameworks */,
+				03DC74F92708DA7B00DEF66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Churlets Point";
+			productName = "Churlets Point";
+			productReference = 03DC74FB2708DA7B00DEF66A /* Churlets Point.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03DC750A2708DA7F00DEF66A /* Churlets PointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DC75222708DA7F00DEF66A /* Build configuration list for PBXNativeTarget "Churlets PointTests" */;
+			buildPhases = (
+				03DC75072708DA7F00DEF66A /* Sources */,
+				03DC75082708DA7F00DEF66A /* Frameworks */,
+				03DC75092708DA7F00DEF66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DC750D2708DA7F00DEF66A /* PBXTargetDependency */,
+			);
+			name = "Churlets PointTests";
+			productName = "Churlets PointTests";
+			productReference = 03DC750B2708DA7F00DEF66A /* Churlets PointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03DC75142708DA7F00DEF66A /* Churlets PointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DC75252708DA7F00DEF66A /* Build configuration list for PBXNativeTarget "Churlets PointUITests" */;
+			buildPhases = (
+				03DC75112708DA7F00DEF66A /* Sources */,
+				03DC75122708DA7F00DEF66A /* Frameworks */,
+				03DC75132708DA7F00DEF66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DC75172708DA7F00DEF66A /* PBXTargetDependency */,
+			);
+			name = "Churlets PointUITests";
+			productName = "Churlets PointUITests";
+			productReference = 03DC75152708DA7F00DEF66A /* Churlets PointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DC74F32708DA7B00DEF66A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					03DC74FA2708DA7B00DEF66A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					03DC750A2708DA7F00DEF66A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 03DC74FA2708DA7B00DEF66A;
+					};
+					03DC75142708DA7F00DEF66A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 03DC74FA2708DA7B00DEF66A;
+					};
+				};
+			};
+			buildConfigurationList = 03DC74F62708DA7B00DEF66A /* Build configuration list for PBXProject "Churlets Point" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03DC74F22708DA7B00DEF66A;
+			productRefGroup = 03DC74FC2708DA7B00DEF66A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DC74FA2708DA7B00DEF66A /* Churlets Point */,
+				03DC750A2708DA7F00DEF66A /* Churlets PointTests */,
+				03DC75142708DA7F00DEF66A /* Churlets PointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DC74F92708DA7B00DEF66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DC75062708DA7E00DEF66A /* Preview Assets.xcassets in Resources */,
+				03DC75032708DA7E00DEF66A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DC75092708DA7F00DEF66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DC75132708DA7F00DEF66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DC74F72708DA7B00DEF66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DC75012708DA7B00DEF66A /* ContentView.swift in Sources */,
+				03DC74FF2708DA7B00DEF66A /* Churlets_PointApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DC75072708DA7F00DEF66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DC75102708DA7F00DEF66A /* Churlets_PointTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DC75112708DA7F00DEF66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DC751A2708DA7F00DEF66A /* Churlets_PointUITests.swift in Sources */,
+				03DC751C2708DA7F00DEF66A /* Churlets_PointUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03DC750D2708DA7F00DEF66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DC74FA2708DA7B00DEF66A /* Churlets Point */;
+			targetProxy = 03DC750C2708DA7F00DEF66A /* PBXContainerItemProxy */;
+		};
+		03DC75172708DA7F00DEF66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DC74FA2708DA7B00DEF66A /* Churlets Point */;
+			targetProxy = 03DC75162708DA7F00DEF66A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03DC751D2708DA7F00DEF66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03DC751E2708DA7F00DEF66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03DC75202708DA7F00DEF66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Churlets Point/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DDBZ7D32L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolas.Churlets-Point";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03DC75212708DA7F00DEF66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Churlets Point/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DDBZ7D32L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolas.Churlets-Point";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03DC75232708DA7F00DEF66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DDBZ7D32L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolas.Churlets-PointTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Churlets Point.app/Churlets Point";
+			};
+			name = Debug;
+		};
+		03DC75242708DA7F00DEF66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DDBZ7D32L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolas.Churlets-PointTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Churlets Point.app/Churlets Point";
+			};
+			name = Release;
+		};
+		03DC75262708DA7F00DEF66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DDBZ7D32L;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolas.Churlets-PointUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Churlets Point";
+			};
+			name = Debug;
+		};
+		03DC75272708DA7F00DEF66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DDBZ7D32L;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolas.Churlets-PointUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Churlets Point";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DC74F62708DA7B00DEF66A /* Build configuration list for PBXProject "Churlets Point" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DC751D2708DA7F00DEF66A /* Debug */,
+				03DC751E2708DA7F00DEF66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DC751F2708DA7F00DEF66A /* Build configuration list for PBXNativeTarget "Churlets Point" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DC75202708DA7F00DEF66A /* Debug */,
+				03DC75212708DA7F00DEF66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DC75222708DA7F00DEF66A /* Build configuration list for PBXNativeTarget "Churlets PointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DC75232708DA7F00DEF66A /* Debug */,
+				03DC75242708DA7F00DEF66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DC75252708DA7F00DEF66A /* Build configuration list for PBXNativeTarget "Churlets PointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DC75262708DA7F00DEF66A /* Debug */,
+				03DC75272708DA7F00DEF66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03DC74F32708DA7B00DEF66A /* Project object */;
+}
