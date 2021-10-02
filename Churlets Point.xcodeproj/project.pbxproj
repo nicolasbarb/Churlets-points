@@ -9,39 +9,18 @@
 /* Begin PBXBuildFile section */
 		03DC75032708DA7E00DEF66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DC75022708DA7E00DEF66A /* Assets.xcassets */; };
 		03DC75062708DA7E00DEF66A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DC75052708DA7E00DEF66A /* Preview Assets.xcassets */; };
-		03DC75102708DA7F00DEF66A /* Churlets_PointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC750F2708DA7F00DEF66A /* Churlets_PointTests.swift */; };
 		03DC75292708DC1500DEF66A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03DC75282708DC1500DEF66A /* GoogleService-Info.plist */; };
-		03DC752C2708DDE200DEF66A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC752B2708DDE200DEF66A /* FirebaseAnalytics */; };
-		03DC752E2708DDE200DEF66A /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC752D2708DDE200DEF66A /* FirebaseAnalyticsSwift-Beta */; };
-		03DC75302708DDE200DEF66A /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC752F2708DDE200DEF66A /* FirebaseAnalyticsWithoutAdIdSupport */; };
-		03DC75322708DDE200DEF66A /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75312708DDE200DEF66A /* FirebaseAppDistribution-Beta */; };
-		03DC75342708DDE200DEF66A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75332708DDE200DEF66A /* FirebaseAuth */; };
-		03DC75362708DDE200DEF66A /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75352708DDE200DEF66A /* FirebaseCrashlytics */; };
-		03DC75382708DDE200DEF66A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75372708DDE200DEF66A /* FirebaseDatabase */; };
-		03DC753A2708DDE200DEF66A /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75392708DDE200DEF66A /* FirebaseDynamicLinks */; };
-		03DC753C2708DDE200DEF66A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC753B2708DDE200DEF66A /* FirebaseFirestore */; };
-		03DC753E2708DDE200DEF66A /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC753D2708DDE200DEF66A /* FirebaseFirestoreSwift-Beta */; };
-		03DC75402708DDE200DEF66A /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC753F2708DDE200DEF66A /* FirebaseFunctions */; };
-		03DC75422708DDE200DEF66A /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75412708DDE200DEF66A /* FirebaseInAppMessaging-Beta */; };
-		03DC75442708DDE200DEF66A /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75432708DDE200DEF66A /* FirebaseInAppMessagingSwift-Beta */; };
-		03DC75462708DDE200DEF66A /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75452708DDE200DEF66A /* FirebaseInstallations */; };
-		03DC75482708DDE200DEF66A /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75472708DDE200DEF66A /* FirebaseMLModelDownloader */; };
-		03DC754A2708DDE200DEF66A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75492708DDE200DEF66A /* FirebaseMessaging */; };
-		03DC754C2708DDE200DEF66A /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC754B2708DDE200DEF66A /* FirebaseRemoteConfig */; };
-		03DC754E2708DDE200DEF66A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC754D2708DDE200DEF66A /* FirebaseStorage */; };
-		03DC75502708DDE200DEF66A /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC754F2708DDE200DEF66A /* FirebaseStorageSwift-Beta */; };
 		03DC75522708DE0100DEF66A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC75512708DE0100DEF66A /* AppDelegate.swift */; };
+		03DC75562708E34900DEF66A /* StartupScenario_Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC75552708E34900DEF66A /* StartupScenario_Spec.swift */; };
+		03DC75592708E47800DEF66A /* StartupScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC75582708E47800DEF66A /* StartupScenario.swift */; };
+		03DC755E2708E8AB00DEF66A /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC755D2708E8AB00DEF66A /* Typealias.swift */; };
+		03DC75602708ECCD00DEF66A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DC755F2708ECCD00DEF66A /* HomeView.swift */; };
+		03DC75632708EEBE00DEF66A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75622708EEBE00DEF66A /* FirebaseDatabase */; };
+		03DC75652708EEBE00DEF66A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 03DC75642708EEBE00DEF66A /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		03DC750C2708DA7F00DEF66A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 03DC74F32708DA7B00DEF66A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 03DC74FA2708DA7B00DEF66A;
-			remoteInfo = "Churlets Point";
-		};
-		03DC75162708DA7F00DEF66A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 03DC74F32708DA7B00DEF66A /* Project object */;
 			proxyType = 1;
@@ -55,10 +34,12 @@
 		03DC75022708DA7E00DEF66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03DC75052708DA7E00DEF66A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03DC750B2708DA7F00DEF66A /* Churlets PointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Churlets PointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03DC750F2708DA7F00DEF66A /* Churlets_PointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Churlets_PointTests.swift; sourceTree = "<group>"; };
-		03DC75152708DA7F00DEF66A /* Churlets PointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Churlets PointUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DC75282708DC1500DEF66A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		03DC75512708DE0100DEF66A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03DC75552708E34900DEF66A /* StartupScenario_Spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupScenario_Spec.swift; sourceTree = "<group>"; };
+		03DC75582708E47800DEF66A /* StartupScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupScenario.swift; sourceTree = "<group>"; };
+		03DC755D2708E8AB00DEF66A /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		03DC755F2708ECCD00DEF66A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,36 +47,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03DC754A2708DDE200DEF66A /* FirebaseMessaging in Frameworks */,
-				03DC75502708DDE200DEF66A /* FirebaseStorageSwift-Beta in Frameworks */,
-				03DC752E2708DDE200DEF66A /* FirebaseAnalyticsSwift-Beta in Frameworks */,
-				03DC75462708DDE200DEF66A /* FirebaseInstallations in Frameworks */,
-				03DC75342708DDE200DEF66A /* FirebaseAuth in Frameworks */,
-				03DC754C2708DDE200DEF66A /* FirebaseRemoteConfig in Frameworks */,
-				03DC75302708DDE200DEF66A /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
-				03DC753A2708DDE200DEF66A /* FirebaseDynamicLinks in Frameworks */,
-				03DC75362708DDE200DEF66A /* FirebaseCrashlytics in Frameworks */,
-				03DC753C2708DDE200DEF66A /* FirebaseFirestore in Frameworks */,
-				03DC752C2708DDE200DEF66A /* FirebaseAnalytics in Frameworks */,
-				03DC753E2708DDE200DEF66A /* FirebaseFirestoreSwift-Beta in Frameworks */,
-				03DC754E2708DDE200DEF66A /* FirebaseStorage in Frameworks */,
-				03DC75442708DDE200DEF66A /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
-				03DC75382708DDE200DEF66A /* FirebaseDatabase in Frameworks */,
-				03DC75402708DDE200DEF66A /* FirebaseFunctions in Frameworks */,
-				03DC75482708DDE200DEF66A /* FirebaseMLModelDownloader in Frameworks */,
-				03DC75322708DDE200DEF66A /* FirebaseAppDistribution-Beta in Frameworks */,
-				03DC75422708DDE200DEF66A /* FirebaseInAppMessaging-Beta in Frameworks */,
+				03DC75632708EEBE00DEF66A /* FirebaseDatabase in Frameworks */,
+				03DC75652708EEBE00DEF66A /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		03DC75082708DA7F00DEF66A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03DC75122708DA7F00DEF66A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,7 +76,6 @@
 			children = (
 				03DC74FB2708DA7B00DEF66A /* Churlets Point.app */,
 				03DC750B2708DA7F00DEF66A /* Churlets PointTests.xctest */,
-				03DC75152708DA7F00DEF66A /* Churlets PointUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,10 +83,12 @@
 		03DC74FD2708DA7B00DEF66A /* Churlets Point */ = {
 			isa = PBXGroup;
 			children = (
-				03DC75282708DC1500DEF66A /* GoogleService-Info.plist */,
-				03DC75022708DA7E00DEF66A /* Assets.xcassets */,
+				03DC755C2708E88F00DEF66A /* Utils */,
+				03DC75582708E47800DEF66A /* StartupScenario.swift */,
+				03DC75572708E46000DEF66A /* Ressources */,
 				03DC75042708DA7E00DEF66A /* Preview Content */,
 				03DC75512708DE0100DEF66A /* AppDelegate.swift */,
+				03DC755F2708ECCD00DEF66A /* HomeView.swift */,
 			);
 			path = "Churlets Point";
 			sourceTree = "<group>";
@@ -146,9 +104,42 @@
 		03DC750E2708DA7F00DEF66A /* Churlets PointTests */ = {
 			isa = PBXGroup;
 			children = (
-				03DC750F2708DA7F00DEF66A /* Churlets_PointTests.swift */,
+				03DC75532708E31E00DEF66A /* Scenarios */,
 			);
 			path = "Churlets PointTests";
+			sourceTree = "<group>";
+		};
+		03DC75532708E31E00DEF66A /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				03DC75542708E32C00DEF66A /* StartupScenario_Spec */,
+			);
+			path = Scenarios;
+			sourceTree = "<group>";
+		};
+		03DC75542708E32C00DEF66A /* StartupScenario_Spec */ = {
+			isa = PBXGroup;
+			children = (
+				03DC75552708E34900DEF66A /* StartupScenario_Spec.swift */,
+			);
+			path = StartupScenario_Spec;
+			sourceTree = "<group>";
+		};
+		03DC75572708E46000DEF66A /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				03DC75282708DC1500DEF66A /* GoogleService-Info.plist */,
+				03DC75022708DA7E00DEF66A /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		03DC755C2708E88F00DEF66A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				03DC755D2708E8AB00DEF66A /* Typealias.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,25 +159,8 @@
 			);
 			name = "Churlets Point";
 			packageProductDependencies = (
-				03DC752B2708DDE200DEF66A /* FirebaseAnalytics */,
-				03DC752D2708DDE200DEF66A /* FirebaseAnalyticsSwift-Beta */,
-				03DC752F2708DDE200DEF66A /* FirebaseAnalyticsWithoutAdIdSupport */,
-				03DC75312708DDE200DEF66A /* FirebaseAppDistribution-Beta */,
-				03DC75332708DDE200DEF66A /* FirebaseAuth */,
-				03DC75352708DDE200DEF66A /* FirebaseCrashlytics */,
-				03DC75372708DDE200DEF66A /* FirebaseDatabase */,
-				03DC75392708DDE200DEF66A /* FirebaseDynamicLinks */,
-				03DC753B2708DDE200DEF66A /* FirebaseFirestore */,
-				03DC753D2708DDE200DEF66A /* FirebaseFirestoreSwift-Beta */,
-				03DC753F2708DDE200DEF66A /* FirebaseFunctions */,
-				03DC75412708DDE200DEF66A /* FirebaseInAppMessaging-Beta */,
-				03DC75432708DDE200DEF66A /* FirebaseInAppMessagingSwift-Beta */,
-				03DC75452708DDE200DEF66A /* FirebaseInstallations */,
-				03DC75472708DDE200DEF66A /* FirebaseMLModelDownloader */,
-				03DC75492708DDE200DEF66A /* FirebaseMessaging */,
-				03DC754B2708DDE200DEF66A /* FirebaseRemoteConfig */,
-				03DC754D2708DDE200DEF66A /* FirebaseStorage */,
-				03DC754F2708DDE200DEF66A /* FirebaseStorageSwift-Beta */,
+				03DC75622708EEBE00DEF66A /* FirebaseDatabase */,
+				03DC75642708EEBE00DEF66A /* FirebaseFirestore */,
 			);
 			productName = "Churlets Point";
 			productReference = 03DC74FB2708DA7B00DEF66A /* Churlets Point.app */;
@@ -210,24 +184,6 @@
 			productReference = 03DC750B2708DA7F00DEF66A /* Churlets PointTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		03DC75142708DA7F00DEF66A /* Churlets PointUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 03DC75252708DA7F00DEF66A /* Build configuration list for PBXNativeTarget "Churlets PointUITests" */;
-			buildPhases = (
-				03DC75112708DA7F00DEF66A /* Sources */,
-				03DC75122708DA7F00DEF66A /* Frameworks */,
-				03DC75132708DA7F00DEF66A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				03DC75172708DA7F00DEF66A /* PBXTargetDependency */,
-			);
-			name = "Churlets PointUITests";
-			productName = "Churlets PointUITests";
-			productReference = 03DC75152708DA7F00DEF66A /* Churlets PointUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -245,10 +201,6 @@
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 03DC74FA2708DA7B00DEF66A;
 					};
-					03DC75142708DA7F00DEF66A = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 03DC74FA2708DA7B00DEF66A;
-					};
 				};
 			};
 			buildConfigurationList = 03DC74F62708DA7B00DEF66A /* Build configuration list for PBXProject "Churlets Point" */;
@@ -261,7 +213,7 @@
 			);
 			mainGroup = 03DC74F22708DA7B00DEF66A;
 			packageReferences = (
-				03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				03DC75612708EEBE00DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 03DC74FC2708DA7B00DEF66A /* Products */;
 			projectDirPath = "";
@@ -269,7 +221,6 @@
 			targets = (
 				03DC74FA2708DA7B00DEF66A /* Churlets Point */,
 				03DC750A2708DA7F00DEF66A /* Churlets PointTests */,
-				03DC75142708DA7F00DEF66A /* Churlets PointUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,13 +243,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		03DC75132708DA7F00DEF66A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -306,7 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DC755E2708E8AB00DEF66A /* Typealias.swift in Sources */,
+				03DC75602708ECCD00DEF66A /* HomeView.swift in Sources */,
 				03DC75522708DE0100DEF66A /* AppDelegate.swift in Sources */,
+				03DC75592708E47800DEF66A /* StartupScenario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03DC75102708DA7F00DEF66A /* Churlets_PointTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		03DC75112708DA7F00DEF66A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				03DC75562708E34900DEF66A /* StartupScenario_Spec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +272,6 @@
 			isa = PBXTargetDependency;
 			target = 03DC74FA2708DA7B00DEF66A /* Churlets Point */;
 			targetProxy = 03DC750C2708DA7F00DEF66A /* PBXContainerItemProxy */;
-		};
-		03DC75172708DA7F00DEF66A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 03DC74FA2708DA7B00DEF66A /* Churlets Point */;
-			targetProxy = 03DC75162708DA7F00DEF66A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -567,52 +502,6 @@
 			};
 			name = Release;
 		};
-		03DC75262708DA7F00DEF66A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5DDBZ7D32L;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolas.Churlets-PointUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Churlets Point";
-			};
-			name = Debug;
-		};
-		03DC75272708DA7F00DEF66A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5DDBZ7D32L;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolas.Churlets-PointUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Churlets Point";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -643,123 +532,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03DC75252708DA7F00DEF66A /* Build configuration list for PBXNativeTarget "Churlets PointUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03DC75262708DA7F00DEF66A /* Debug */,
-				03DC75272708DA7F00DEF66A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		03DC75612708EEBE00DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		03DC752B2708DDE200DEF66A /* FirebaseAnalytics */ = {
+		03DC75622708EEBE00DEF66A /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		03DC752D2708DDE200DEF66A /* FirebaseAnalyticsSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAnalyticsSwift-Beta";
-		};
-		03DC752F2708DDE200DEF66A /* FirebaseAnalyticsWithoutAdIdSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsWithoutAdIdSupport;
-		};
-		03DC75312708DDE200DEF66A /* FirebaseAppDistribution-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAppDistribution-Beta";
-		};
-		03DC75332708DDE200DEF66A /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		03DC75352708DDE200DEF66A /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		03DC75372708DDE200DEF66A /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 03DC75612708EEBE00DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabase;
 		};
-		03DC75392708DDE200DEF66A /* FirebaseDynamicLinks */ = {
+		03DC75642708EEBE00DEF66A /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDynamicLinks;
-		};
-		03DC753B2708DDE200DEF66A /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 03DC75612708EEBE00DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
-		};
-		03DC753D2708DDE200DEF66A /* FirebaseFirestoreSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFirestoreSwift-Beta";
-		};
-		03DC753F2708DDE200DEF66A /* FirebaseFunctions */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFunctions;
-		};
-		03DC75412708DDE200DEF66A /* FirebaseInAppMessaging-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseInAppMessaging-Beta";
-		};
-		03DC75432708DDE200DEF66A /* FirebaseInAppMessagingSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseInAppMessagingSwift-Beta";
-		};
-		03DC75452708DDE200DEF66A /* FirebaseInstallations */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseInstallations;
-		};
-		03DC75472708DDE200DEF66A /* FirebaseMLModelDownloader */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseMLModelDownloader;
-		};
-		03DC75492708DDE200DEF66A /* FirebaseMessaging */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseMessaging;
-		};
-		03DC754B2708DDE200DEF66A /* FirebaseRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfig;
-		};
-		03DC754D2708DDE200DEF66A /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-		03DC754F2708DDE200DEF66A /* FirebaseStorageSwift-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 03DC752A2708DDE200DEF66A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseStorageSwift-Beta";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
